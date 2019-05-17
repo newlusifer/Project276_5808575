@@ -5,13 +5,15 @@ using SocketIO;
 
 public class networkConnection : MonoBehaviour {
 
-    static SocketIOComponent socket;
+   public static SocketIOComponent socket;
+
+   
 
 	// Use this for initialization
 	void Start () {
         socket = GetComponent<SocketIOComponent>();
 
-        socket.On("hello", onHello);
+       // socket.On("yourname", onGetName);
 	}
 	
 	// Update is called once per frame
@@ -19,9 +21,11 @@ public class networkConnection : MonoBehaviour {
 		
 	}
 
-    void onHello(SocketIOEvent e)
-    {
-        Debug.Log("connect to server");
-        socket.Emit("say");
-    }
+   // void onGetName(SocketIOEvent e)
+   // {
+   //     Debug.Log("connect to server and get name");
+   //     namePlayer = e.data.ToString();
+  //      Debug.Log("my name is "+e.data.ToString());
+
+   // }
 }
