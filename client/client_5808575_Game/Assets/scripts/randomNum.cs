@@ -43,7 +43,7 @@ public class randomNum : MonoBehaviour {
         JSONObject job2 = new JSONObject(namePlayer);
         networkConnection.socket.Emit("name", job2);
         networkConnection.socket.Emit("roll",job);
-        textshow2.text = "you Number : "+ranNum;
+        textshow2.text = "yourNumber : "+ranNum;
     }
 
     public void OnStartRoll(SocketIOEvent e)

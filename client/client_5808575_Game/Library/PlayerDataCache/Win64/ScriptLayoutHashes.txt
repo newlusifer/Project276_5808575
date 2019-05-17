@@ -2,7 +2,9 @@ WindowsStandalone
 PlayerPath?
 D:/งาน/cgm276/github/Project276_5808575/client/client_5808575_Game/build/client_5808575_Game.exe
 SceneListBegin?
-Assets/Scenes/SampleScene.unity
+Assets/Scenes/main.unity
+Assets/Scenes/howTo.unity
+Assets/Scenes/game.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -303,3 +305,4 @@ c1087bf328bbb39eba5a09f26c3b6368 Vuforia.UnityExtensions.dll:Vuforia.MultiTarget
 c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.linkScene
